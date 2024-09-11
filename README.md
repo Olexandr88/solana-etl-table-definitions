@@ -1,6 +1,6 @@
 # Solana ETL Table Definitions
 
-This repo contains table definitions for Solana.
+This repo contains table definitions for [Solana](https://solana.com/).
 
 If you want to parse logs and instructions on Solana and make them cheaper to query on BigQuery, feel free to submit a PR with your new table definitions.
 
@@ -14,9 +14,9 @@ WHERE date(block_timestamp) = '2022-04-21'
 
 ## How To Submit New Table Definitions
 
-1. Fork this repository
-2. Create a new branch and upload your new files to this branch
-3. Create a PR to merge to this main repository
+1. Fork this repository.
+2. Create a new branch and upload your new files to this branch.
+3. Create a PR to merge to this main repository.
 4. Wait for it to be reviewed and merged, your BigQuery tables should show up shortly under the \_\_ project.
 5. Now you can query your newly parsed tables more efficiently and for a smaller cost.
 
